@@ -1,9 +1,9 @@
 <template>
-  <main>
-    <ProductosList />
-  </main>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script setup>
-import ProductosList from './components/ProductosList.vue'
+// Lógica global si la necesitas
 </script>
